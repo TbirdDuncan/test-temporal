@@ -1,0 +1,35 @@
+plugins {
+    id 'application'
+}
+
+repositories {
+    maven {
+        url = uri("${gradle.gradleUserHomeDir}/repos/releases")
+    }
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'io.temporal:temporal-sdk:0.20.2'
+    testImplementation 'io.temporal:temporal-testing:1.24.1'
+}
+
+application {
+    // Define the main class for the application
+    mainClass = 'org.example.Starter'
+}
+
+// Helper tasks to run the worker and the starter
+tasks.register('runWorker', JavaExec) {
+    group = 'application'
+    description = 'Run the Temporal worker'
+    classpath = sourceSets.main.runtimeClasspath
+    mainClass = 'org.example.SayHelloWorker'
+}
+
+tasks.register('runStarter', JavaExec) {
+    group = 'application'
+    description = 'Run the workflow starter'
+    classpath = sourceSets.main.runtimeClasspath
+    mainClass = 'org.example.Starter'
+}
