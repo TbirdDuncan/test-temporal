@@ -1,0 +1,138 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.temporal",
+    "module": "temporal-test-server",
+    "version": "0.20.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.temporal",
+          "module": "temporal-sdk",
+          "version": {
+            "requires": "0.20.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "temporal-test-server-0.20.2.jar",
+          "url": "temporal-test-server-0.20.2.jar",
+          "size": 367901,
+          "sha512": "f877d499510ef95893773936121d1a7df41ce62874030cca9544e4bac1d6b717452463a685e2448254d768b24a507f61b5a9d8aa8712a1c06c0e8c773e73fa50",
+          "sha256": "c2d71d7c61677381642fe50696aaeea8d7377c098e24e905aefc0fb4c301aaa6",
+          "sha1": "d7f0eaea9989456c33e2ead40121226fc13692e6",
+          "md5": "d1f032de5ac1fdd287506faf2527f5b1"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "32.0.1-jre"
+          }
+        },
+        {
+          "group": "com.cronutils",
+          "module": "cron-utils",
+          "version": {
+            "requires": "9.2.1"
+          },
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-api"
+            }
+          ]
+        },
+        {
+          "group": "io.temporal",
+          "module": "temporal-sdk",
+          "version": {
+            "requires": "0.20.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "temporal-test-server-0.20.2.jar",
+          "url": "temporal-test-server-0.20.2.jar",
+          "size": 367901,
+          "sha512": "f877d499510ef95893773936121d1a7df41ce62874030cca9544e4bac1d6b717452463a685e2448254d768b24a507f61b5a9d8aa8712a1c06c0e8c773e73fa50",
+          "sha256": "c2d71d7c61677381642fe50696aaeea8d7377c098e24e905aefc0fb4c301aaa6",
+          "sha1": "d7f0eaea9989456c33e2ead40121226fc13692e6",
+          "md5": "d1f032de5ac1fdd287506faf2527f5b1"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "temporal-test-server-0.20.2-javadoc.jar",
+          "url": "temporal-test-server-0.20.2-javadoc.jar",
+          "size": 288716,
+          "sha512": "6dc0a0091e3af64f7b6c57314d49f8a5c277bbdda08900c14e0ed143c29e81b7fb525733baa64ba498354c595fad7508eeaabb4213de204f7e51d95ea83f2242",
+          "sha256": "420a6aadef01e5785bf50b75da9623eb37b0cf1d50915bb013457112dc325357",
+          "sha1": "aac5f4dce47789f0201abc44f205082debe2eff7",
+          "md5": "af1c4fe2c696c42f6dd2f143911f0911"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "temporal-test-server-0.20.2-sources.jar",
+          "url": "temporal-test-server-0.20.2-sources.jar",
+          "size": 147122,
+          "sha512": "bb7dbb6bdec79fdf4e9fb88392f43b881078b355c450471e5f9a1ffb56bd72fbb3c8043cb2b61ea59b29827ea04a8c692eed746b03ade475cc62f7f5147ee681",
+          "sha256": "9e5395976b3ba0a7435110e9b98b8846d10844f65b2cb0d83d553f6a39adbe0c",
+          "sha1": "cc25a60dfbde2d9f13f0424ce499087a2e7a9072",
+          "md5": "1ca115e3a4db5ca27cc6abd64ce1adea"
+        }
+      ]
+    }
+  ]
+}

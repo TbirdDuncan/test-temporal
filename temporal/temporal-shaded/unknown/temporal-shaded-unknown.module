@@ -1,0 +1,390 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.temporal",
+    "module": "temporal-shaded",
+    "version": "unknown",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.fasterxml.jackson",
+          "module": "jackson-bom",
+          "version": {
+            "requires": "2.15.4"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micrometer",
+          "module": "micrometer-bom",
+          "version": {
+            "requires": "1.9.9"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "com.uber.m3",
+          "module": "tally-core",
+          "version": {
+            "requires": "0.13.0"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.36"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10.1"
+          }
+        },
+        {
+          "group": "io.micrometer",
+          "module": "micrometer-core"
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind"
+        }
+      ],
+      "files": [
+        {
+          "name": "temporal-shaded-unknown.jar",
+          "url": "temporal-shaded-unknown.jar",
+          "size": 30596218,
+          "sha512": "91d78a944dec73c11d911e9e0eb07cb09e46b598e1ca2b7d5c40fcad688943dc64c9e7ae1cc88b34580dd8b5e5d500fa46615004f8cc833f46e80a64731894ba",
+          "sha256": "3a25b2ffd84439e89f239c2ef3a3f5fbd65a26464b256566b1fe5f0ee0eaf6da",
+          "sha1": "1ae9e42827d8f055421cc711bed31ba8deb7b6af",
+          "md5": "0ea5d20591fe76d9fddd1d273c984868"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310"
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jdk8"
+        },
+        {
+          "group": "com.cronutils",
+          "module": "cron-utils",
+          "version": {
+            "requires": "9.2.1"
+          }
+        },
+        {
+          "group": "io.perfmark",
+          "module": "perfmark-api",
+          "version": {
+            "requires": "0.26.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson",
+          "module": "jackson-bom",
+          "version": {
+            "requires": "2.15.4"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micrometer",
+          "module": "micrometer-bom",
+          "version": {
+            "requires": "1.9.9"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "com.uber.m3",
+          "module": "tally-core",
+          "version": {
+            "requires": "0.13.0"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.36"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10.1"
+          }
+        },
+        {
+          "group": "io.micrometer",
+          "module": "micrometer-core"
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind"
+        }
+      ],
+      "files": [
+        {
+          "name": "temporal-shaded-unknown.jar",
+          "url": "temporal-shaded-unknown.jar",
+          "size": 30596218,
+          "sha512": "91d78a944dec73c11d911e9e0eb07cb09e46b598e1ca2b7d5c40fcad688943dc64c9e7ae1cc88b34580dd8b5e5d500fa46615004f8cc833f46e80a64731894ba",
+          "sha256": "3a25b2ffd84439e89f239c2ef3a3f5fbd65a26464b256566b1fe5f0ee0eaf6da",
+          "sha1": "1ae9e42827d8f055421cc711bed31ba8deb7b6af",
+          "md5": "0ea5d20591fe76d9fddd1d273c984868"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "temporal-shaded-unknown-javadoc.jar",
+          "url": "temporal-shaded-unknown-javadoc.jar",
+          "size": 261,
+          "sha512": "4a0e845e6c44cffe36d8899fa0e5c6d1e2df98d410b7a30b76db9cf629b4dd89a297da26c4741045a097f5a72611de1b2be336c423b16082a61d322c9e6856af",
+          "sha256": "ded3900d0a14361ee7b0e6b5c2b942b6d1b667689e82c9649ee8e9a0659a461c",
+          "sha1": "0b05842e0475fd8e2d76aeb3191b2cbd2b29a43e",
+          "md5": "a4934c7a5c0d4ab39ecc7e547d3b2f56"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "temporal-shaded-unknown-sources.jar",
+          "url": "temporal-shaded-unknown-sources.jar",
+          "size": 261,
+          "sha512": "4d93d02c3a5093678c8405332f9d4f653083e7c84a38a7634ed1c6368977aa79a547a3986c8034f0d83e93c244566662bfb7377462cd1be78ed5304767ac9fc1",
+          "sha256": "0fc0937b7ed67b8ee2a7cdcf3eaf28fca086f86f161f0d1df1133a329ba83d4f",
+          "sha1": "826ed788b27d786296186020eef75dc52f2723ea",
+          "md5": "5cbcbadcd9986ae5a2cf8bd409de6690"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.temporal",
+          "module": "temporal-serviceclient",
+          "version": {
+            "requires": "unknown"
+          }
+        },
+        {
+          "group": "io.temporal",
+          "module": "temporal-test-server",
+          "version": {
+            "requires": "unknown"
+          }
+        },
+        {
+          "group": "io.temporal",
+          "module": "temporal-sdk",
+          "version": {
+            "requires": "unknown"
+          }
+        },
+        {
+          "group": "io.temporal",
+          "module": "temporal-testing",
+          "version": {
+            "requires": "unknown"
+          }
+        },
+        {
+          "group": "com.google.protobuf",
+          "module": "protobuf-java",
+          "version": {
+            "requires": "3.25.8"
+          }
+        },
+        {
+          "group": "com.google.protobuf",
+          "module": "protobuf-java-util",
+          "version": {
+            "requires": "3.25.8"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "failureaccess",
+          "version": {
+            "requires": "1.0.1"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "32.0.1-jre"
+          }
+        },
+        {
+          "group": "io.nexusrpc",
+          "module": "nexus-sdk",
+          "version": {
+            "requires": "0.4.0-alpha"
+          }
+        },
+        {
+          "group": "io.grpc",
+          "module": "grpc-protobuf-lite",
+          "version": {
+            "requires": "1.58.1"
+          }
+        },
+        {
+          "group": "io.grpc",
+          "module": "grpc-protobuf",
+          "version": {
+            "requires": "1.58.1"
+          }
+        },
+        {
+          "group": "io.grpc",
+          "module": "grpc-api",
+          "version": {
+            "requires": "1.58.1"
+          }
+        },
+        {
+          "group": "io.grpc",
+          "module": "grpc-core",
+          "version": {
+            "requires": "1.58.1"
+          }
+        },
+        {
+          "group": "io.grpc",
+          "module": "grpc-context",
+          "version": {
+            "requires": "1.58.1"
+          }
+        },
+        {
+          "group": "io.grpc",
+          "module": "grpc-stub",
+          "version": {
+            "requires": "1.58.1"
+          }
+        },
+        {
+          "group": "io.grpc",
+          "module": "grpc-netty-shaded",
+          "version": {
+            "requires": "1.58.1"
+          }
+        },
+        {
+          "group": "io.grpc",
+          "module": "grpc-services",
+          "version": {
+            "requires": "1.58.1"
+          }
+        },
+        {
+          "group": "io.grpc",
+          "module": "grpc-inprocess",
+          "version": {
+            "requires": "1.58.1"
+          }
+        },
+        {
+          "group": "io.grpc",
+          "module": "grpc-util",
+          "version": {
+            "requires": "1.58.1"
+          }
+        },
+        {
+          "group": "com.google.api.grpc",
+          "module": "proto-google-common-protos",
+          "version": {
+            "requires": "2.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "temporal-shaded-unknown.jar",
+          "url": "temporal-shaded-unknown.jar",
+          "size": 30596218,
+          "sha512": "91d78a944dec73c11d911e9e0eb07cb09e46b598e1ca2b7d5c40fcad688943dc64c9e7ae1cc88b34580dd8b5e5d500fa46615004f8cc833f46e80a64731894ba",
+          "sha256": "3a25b2ffd84439e89f239c2ef3a3f5fbd65a26464b256566b1fe5f0ee0eaf6da",
+          "sha1": "1ae9e42827d8f055421cc711bed31ba8deb7b6af",
+          "md5": "0ea5d20591fe76d9fddd1d273c984868"
+        }
+      ]
+    }
+  ]
+}

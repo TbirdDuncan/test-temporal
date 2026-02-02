@@ -1,0 +1,181 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.temporal",
+    "module": "temporal-spring-boot-autoconfigure",
+    "version": "0.20.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-dependencies",
+          "version": {
+            "requires": "2.7.18"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.opentelemetry",
+          "module": "opentelemetry-bom",
+          "version": {
+            "requires": "1.25.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-autoconfigure"
+        },
+        {
+          "group": "io.temporal",
+          "module": "temporal-opentracing",
+          "version": {
+            "requires": "0.20.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "temporal-spring-boot-autoconfigure-0.20.2.jar",
+          "url": "temporal-spring-boot-autoconfigure-0.20.2.jar",
+          "size": 91759,
+          "sha512": "358044e739ae5a491dc009c2d416e8259f8d64c9b1aa787f0523912f174d9f40aa68c34da7a963fe35b299a3727a0d8ce2b083181a1d5709df873b8096615f6a",
+          "sha256": "72fd91f54ca84999b85402cf5a1df928c2da66b4bd6b2aefada248fb611315ee",
+          "sha1": "a4df8323ab93e4e7e0e85dcbbebdeff336781bae",
+          "md5": "a8495d44b16b12053f97267dc4bb821f"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.opentelemetry",
+          "module": "opentelemetry-api"
+        },
+        {
+          "group": "io.opentelemetry",
+          "module": "opentelemetry-opentracing-shim",
+          "version": {
+            "requires": "1.25.0-alpha"
+          }
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-dependencies",
+          "version": {
+            "requires": "2.7.18"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.opentelemetry",
+          "module": "opentelemetry-bom",
+          "version": {
+            "requires": "1.25.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-autoconfigure"
+        },
+        {
+          "group": "io.temporal",
+          "module": "temporal-opentracing",
+          "version": {
+            "requires": "0.20.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "temporal-spring-boot-autoconfigure-0.20.2.jar",
+          "url": "temporal-spring-boot-autoconfigure-0.20.2.jar",
+          "size": 91759,
+          "sha512": "358044e739ae5a491dc009c2d416e8259f8d64c9b1aa787f0523912f174d9f40aa68c34da7a963fe35b299a3727a0d8ce2b083181a1d5709df873b8096615f6a",
+          "sha256": "72fd91f54ca84999b85402cf5a1df928c2da66b4bd6b2aefada248fb611315ee",
+          "sha1": "a4df8323ab93e4e7e0e85dcbbebdeff336781bae",
+          "md5": "a8495d44b16b12053f97267dc4bb821f"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "temporal-spring-boot-autoconfigure-0.20.2-javadoc.jar",
+          "url": "temporal-spring-boot-autoconfigure-0.20.2-javadoc.jar",
+          "size": 238101,
+          "sha512": "276cae58d1e9d2906865e51be187c8474a6ce78a4e2fa4e6082bd4b3f5699c19145630cb2e98eb6ad2785c7c767eaa7567b5746896581718c395fb5e89eeef0b",
+          "sha256": "804c7e18b2e2728dbe38abe230869747f4864638f54c075a244da90291dfaef5",
+          "sha1": "f2eebbbbe254dd55d68b51bab09427074ca8e514",
+          "md5": "eed9f2b0e5e87469541e06b25a91a2cb"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "temporal-spring-boot-autoconfigure-0.20.2-sources.jar",
+          "url": "temporal-spring-boot-autoconfigure-0.20.2-sources.jar",
+          "size": 44693,
+          "sha512": "6a05b22f62bd5a7d6f2e7964d748b0960334ff537bfd6fcd11b8ebbe78e210d9a98073bf2d3bc3713502a728a06691c15fb7c0110e1e2ae17217580a932fca1d",
+          "sha256": "3f9bcf535a834c3ec7f75394c4221628b9c9e04332e2eee70f50700d8e1fad18",
+          "sha1": "ca0ea1f02f57c2e63d854a01d8b9a5bd7576d0f9",
+          "md5": "3f4e005d0e3da04a0c91fcb8fb4b9ad7"
+        }
+      ]
+    }
+  ]
+}

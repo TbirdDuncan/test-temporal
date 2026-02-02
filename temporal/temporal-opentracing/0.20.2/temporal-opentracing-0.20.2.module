@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.temporal",
+    "module": "temporal-opentracing",
+    "version": "0.20.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.opentracing",
+          "module": "opentracing-api",
+          "version": {
+            "requires": "0.33.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "temporal-opentracing-0.20.2.jar",
+          "url": "temporal-opentracing-0.20.2.jar",
+          "size": 43042,
+          "sha512": "a14de46803eb5edccd471946a90170ced594232f565f9218fa7c49ab301e204479dd7a05c0b74cd705c9b2b4463f34687ccd0dbccedd8303ddd26e284418ec80",
+          "sha256": "7d0247e73836d0251f8cf0ac9367a9e0e1e7c660a010372f70b07a1590664f0c",
+          "sha1": "1f8269761b3dc057ac0a333b1d26b42fb3f7ba1d",
+          "md5": "45816f130f5de5645115549e58606ef7"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "32.0.1-jre"
+          }
+        },
+        {
+          "group": "io.opentracing",
+          "module": "opentracing-util",
+          "version": {
+            "requires": "0.33.0"
+          }
+        },
+        {
+          "group": "io.opentracing",
+          "module": "opentracing-api",
+          "version": {
+            "requires": "0.33.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "temporal-opentracing-0.20.2.jar",
+          "url": "temporal-opentracing-0.20.2.jar",
+          "size": 43042,
+          "sha512": "a14de46803eb5edccd471946a90170ced594232f565f9218fa7c49ab301e204479dd7a05c0b74cd705c9b2b4463f34687ccd0dbccedd8303ddd26e284418ec80",
+          "sha256": "7d0247e73836d0251f8cf0ac9367a9e0e1e7c660a010372f70b07a1590664f0c",
+          "sha1": "1f8269761b3dc057ac0a333b1d26b42fb3f7ba1d",
+          "md5": "45816f130f5de5645115549e58606ef7"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "temporal-opentracing-0.20.2-javadoc.jar",
+          "url": "temporal-opentracing-0.20.2-javadoc.jar",
+          "size": 165528,
+          "sha512": "6f3d18503634148f4a97fb03f8fae75eae006d3fdba2f555b0ca1aa815d4935b097a5028242366202e28c0d72f6a9900c2288ccb4b6bc2ac54501fd03533f6a1",
+          "sha256": "3353e742865b4aa4ad1d702788f19630ebd744b90c4f0c3c400db42872ba695c",
+          "sha1": "1409450bd87a2d3bc5db45c807287bed3e025ed0",
+          "md5": "facb1c125594ea213dbeb144b6665d08"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "temporal-opentracing-0.20.2-sources.jar",
+          "url": "temporal-opentracing-0.20.2-sources.jar",
+          "size": 18726,
+          "sha512": "950bffacb4b5ce7ccef94eede0fd04a6a9a9ff85f0454990b120475fe34c09efaa777ad7c0980602ef940b64ca63750cd7aab354f3e0e63c0375079dc6211487",
+          "sha256": "63fa97a332611e5930b8626d21c4d0b20ce9982fd621589f48ee9ec203ea7cad",
+          "sha1": "f8926d95f136280419f789c3f815d3a2bbbd2828",
+          "md5": "86f87973fa4ec24a3b880698113452f0"
+        }
+      ]
+    }
+  ]
+}

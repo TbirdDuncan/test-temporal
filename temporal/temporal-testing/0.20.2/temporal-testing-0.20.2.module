@@ -1,0 +1,309 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.temporal",
+    "module": "temporal-testing",
+    "version": "0.20.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.temporal",
+          "module": "temporal-sdk",
+          "version": {
+            "requires": "0.20.2"
+          }
+        },
+        {
+          "group": "io.temporal",
+          "module": "temporal-test-server",
+          "version": {
+            "requires": "0.20.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "temporal-testing-0.20.2.jar",
+          "url": "temporal-testing-0.20.2.jar",
+          "size": 115238,
+          "sha512": "e92874618e435ed0998c862903437dbd5fc72e1f8ddc500358f1441579b485814822d9e17ec9503888e5da1668436f875ed30b25cb16b0a5c4ad19bcb82cf459",
+          "sha256": "4bcd6fd907c866b7c703b127f16dc53728d1c3e7f77a985460f218261dd81a81",
+          "sha1": "d3fe160d85339ec1b69c0457214e10befdd64f1d",
+          "md5": "e5a32ca06f938057ee1f6953350ea250"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.jayway.jsonpath",
+          "module": "json-path",
+          "version": {
+            "requires": "2.9.0"
+          },
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-api"
+            }
+          ]
+        },
+        {
+          "group": "io.temporal",
+          "module": "temporal-sdk",
+          "version": {
+            "requires": "0.20.2"
+          }
+        },
+        {
+          "group": "io.temporal",
+          "module": "temporal-test-server",
+          "version": {
+            "requires": "0.20.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "temporal-testing-0.20.2.jar",
+          "url": "temporal-testing-0.20.2.jar",
+          "size": 115238,
+          "sha512": "e92874618e435ed0998c862903437dbd5fc72e1f8ddc500358f1441579b485814822d9e17ec9503888e5da1668436f875ed30b25cb16b0a5c4ad19bcb82cf459",
+          "sha256": "4bcd6fd907c866b7c703b127f16dc53728d1c3e7f77a985460f218261dd81a81",
+          "sha1": "d3fe160d85339ec1b69c0457214e10befdd64f1d",
+          "md5": "e5a32ca06f938057ee1f6953350ea250"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "temporal-testing-0.20.2-javadoc.jar",
+          "url": "temporal-testing-0.20.2-javadoc.jar",
+          "size": 220128,
+          "sha512": "d2ad53b5d20ad9c2b17b2ca85f15b2b56db08619a2d19135fa5397651f24865cb0a4088bb8e503a8868c2fcab61b35738b704807726bd0f01bcaa25571bca001",
+          "sha256": "28450b5a1d75dea7ed0503a4a1d857967b42cdb40f5d759ea957bd54b71c87f9",
+          "sha1": "08ed4cfc2f81e208ac66e50c867570b86673b273",
+          "md5": "59e929998445ad5c68c8876342c9765c"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "temporal-testing-0.20.2-sources.jar",
+          "url": "temporal-testing-0.20.2-sources.jar",
+          "size": 50097,
+          "sha512": "bd77d2f8cd69b3816e708a1991c03a8c8e26f3a13fbde225887bd048bf1886da81b7b3131085a30cfd118020158959087b800ca588b32f02ce0ca9e9416af0d5",
+          "sha256": "aaad3db47cfa1ee8167bd25cff8dc8866aaf9765722ec9db48c80d1f5c995c25",
+          "sha1": "ac0219087e6f2866b6495d8d784d66da2015c47a",
+          "md5": "3971cb9c177484e5232dadbdc44e1a5d"
+        }
+      ]
+    },
+    {
+      "name": "junit4ApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "junit",
+          "module": "junit",
+          "version": {
+            "requires": "4.13.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "temporal-testing-0.20.2.jar",
+          "url": "temporal-testing-0.20.2.jar",
+          "size": 115238,
+          "sha512": "e92874618e435ed0998c862903437dbd5fc72e1f8ddc500358f1441579b485814822d9e17ec9503888e5da1668436f875ed30b25cb16b0a5c4ad19bcb82cf459",
+          "sha256": "4bcd6fd907c866b7c703b127f16dc53728d1c3e7f77a985460f218261dd81a81",
+          "sha1": "d3fe160d85339ec1b69c0457214e10befdd64f1d",
+          "md5": "e5a32ca06f938057ee1f6953350ea250"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "io.temporal",
+          "name": "temporal-testing-junit4",
+          "version": "0.20.2"
+        }
+      ]
+    },
+    {
+      "name": "junit4RuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "junit",
+          "module": "junit",
+          "version": {
+            "requires": "4.13.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "temporal-testing-0.20.2.jar",
+          "url": "temporal-testing-0.20.2.jar",
+          "size": 115238,
+          "sha512": "e92874618e435ed0998c862903437dbd5fc72e1f8ddc500358f1441579b485814822d9e17ec9503888e5da1668436f875ed30b25cb16b0a5c4ad19bcb82cf459",
+          "sha256": "4bcd6fd907c866b7c703b127f16dc53728d1c3e7f77a985460f218261dd81a81",
+          "sha1": "d3fe160d85339ec1b69c0457214e10befdd64f1d",
+          "md5": "e5a32ca06f938057ee1f6953350ea250"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "io.temporal",
+          "name": "temporal-testing-junit4",
+          "version": "0.20.2"
+        }
+      ]
+    },
+    {
+      "name": "junit5ApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.junit",
+          "module": "junit-bom",
+          "version": {
+            "requires": "5.9.2"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.junit.jupiter",
+          "module": "junit-jupiter-api"
+        }
+      ],
+      "files": [
+        {
+          "name": "temporal-testing-0.20.2.jar",
+          "url": "temporal-testing-0.20.2.jar",
+          "size": 115238,
+          "sha512": "e92874618e435ed0998c862903437dbd5fc72e1f8ddc500358f1441579b485814822d9e17ec9503888e5da1668436f875ed30b25cb16b0a5c4ad19bcb82cf459",
+          "sha256": "4bcd6fd907c866b7c703b127f16dc53728d1c3e7f77a985460f218261dd81a81",
+          "sha1": "d3fe160d85339ec1b69c0457214e10befdd64f1d",
+          "md5": "e5a32ca06f938057ee1f6953350ea250"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "io.temporal",
+          "name": "temporal-testing-junit5",
+          "version": "0.20.2"
+        }
+      ]
+    },
+    {
+      "name": "junit5RuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.junit",
+          "module": "junit-bom",
+          "version": {
+            "requires": "5.9.2"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.junit.jupiter",
+          "module": "junit-jupiter-api"
+        }
+      ],
+      "files": [
+        {
+          "name": "temporal-testing-0.20.2.jar",
+          "url": "temporal-testing-0.20.2.jar",
+          "size": 115238,
+          "sha512": "e92874618e435ed0998c862903437dbd5fc72e1f8ddc500358f1441579b485814822d9e17ec9503888e5da1668436f875ed30b25cb16b0a5c4ad19bcb82cf459",
+          "sha256": "4bcd6fd907c866b7c703b127f16dc53728d1c3e7f77a985460f218261dd81a81",
+          "sha1": "d3fe160d85339ec1b69c0457214e10befdd64f1d",
+          "md5": "e5a32ca06f938057ee1f6953350ea250"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "io.temporal",
+          "name": "temporal-testing-junit5",
+          "version": "0.20.2"
+        }
+      ]
+    }
+  ]
+}

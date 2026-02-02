@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.temporal",
+    "module": "temporal-opentracing",
+    "version": "unknown",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.opentracing",
+          "module": "opentracing-api",
+          "version": {
+            "requires": "0.33.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "temporal-opentracing-unknown.jar",
+          "url": "temporal-opentracing-unknown.jar",
+          "size": 43043,
+          "sha512": "0b37e2bd01b1fed6414fbb24baa7410a3289cc1165c6fada768b307d7b8316b5a225e64517f6668da28bf558ea7bbe3af8e96a36bf7bcd3d5550ecd7d58888d0",
+          "sha256": "8f83796d66c24b84fd7bfbf77cc84c152287936d0351402a93c88ffa76b08e13",
+          "sha1": "ac19697227e726dcb16662710447bbd92e81e135",
+          "md5": "e4dd2720236b9dd94d40bfc51c7058dc"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "32.0.1-jre"
+          }
+        },
+        {
+          "group": "io.opentracing",
+          "module": "opentracing-util",
+          "version": {
+            "requires": "0.33.0"
+          }
+        },
+        {
+          "group": "io.opentracing",
+          "module": "opentracing-api",
+          "version": {
+            "requires": "0.33.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "temporal-opentracing-unknown.jar",
+          "url": "temporal-opentracing-unknown.jar",
+          "size": 43043,
+          "sha512": "0b37e2bd01b1fed6414fbb24baa7410a3289cc1165c6fada768b307d7b8316b5a225e64517f6668da28bf558ea7bbe3af8e96a36bf7bcd3d5550ecd7d58888d0",
+          "sha256": "8f83796d66c24b84fd7bfbf77cc84c152287936d0351402a93c88ffa76b08e13",
+          "sha1": "ac19697227e726dcb16662710447bbd92e81e135",
+          "md5": "e4dd2720236b9dd94d40bfc51c7058dc"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "temporal-opentracing-unknown-javadoc.jar",
+          "url": "temporal-opentracing-unknown-javadoc.jar",
+          "size": 165547,
+          "sha512": "2597b9172149783f8d1596f6b98f6ad6ed471e3e05a8a0f14b498ff302a6b42316f447bec74b944279315e2330640e0cf8e9f43155831389256c6e164300f187",
+          "sha256": "32ae7b2a9b2c558a5392fda1f36f8444f4e755e28beed51ccd43f8590ad21d51",
+          "sha1": "f984bf02aaf2948cc2de17490c493c81e3f9cdf8",
+          "md5": "db61dddbe5e24d831af2ba5f66d6bf0d"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "temporal-opentracing-unknown-sources.jar",
+          "url": "temporal-opentracing-unknown-sources.jar",
+          "size": 18726,
+          "sha512": "b75b1f86511352f377102ce93af49d8f26691cedad595ffb0911c733ad3d1fb8f3c30ff23ad03d878b1ab96cfb285b9b642598a6542aeebdb2c2489580f6ef35",
+          "sha256": "ffe3cdc246e5c0eae87d265826c8d878089f08735439182de02492b40816d46e",
+          "sha1": "bc7fea13f4aceb15dc5c56162adcbb565828b503",
+          "md5": "a5d2cf14d0858bfbcd1dbcbea98664cb"
+        }
+      ]
+    }
+  ]
+}

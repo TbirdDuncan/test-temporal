@@ -1,0 +1,208 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.temporal",
+    "module": "temporal-serviceclient",
+    "version": "unknown",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.grpc",
+          "module": "grpc-bom",
+          "version": {
+            "requires": "1.58.1"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.grpc",
+          "module": "grpc-api"
+        },
+        {
+          "group": "io.grpc",
+          "module": "grpc-stub"
+        },
+        {
+          "group": "io.grpc",
+          "module": "grpc-netty-shaded"
+        },
+        {
+          "group": "io.grpc",
+          "module": "grpc-services"
+        },
+        {
+          "group": "io.grpc",
+          "module": "grpc-inprocess"
+        },
+        {
+          "group": "com.google.protobuf",
+          "module": "protobuf-java-util",
+          "version": {
+            "requires": "3.25.8"
+          }
+        },
+        {
+          "group": "com.uber.m3",
+          "module": "tally-core",
+          "version": {
+            "requires": "0.13.0"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.36"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "temporal-serviceclient-unknown.jar",
+          "url": "temporal-serviceclient-unknown.jar",
+          "size": 9644530,
+          "sha512": "1007dcc6be625b40ace38312bf6544ed1e3823bd44f66089ebfd4dea7b2de01e35b67bfb10853d64e7643bd0b9329e35b808d0d4f8e348f6b543090f424eb424",
+          "sha256": "e3990ef0831ad14ee3b61e18325616d71839a38f37dc63709c88b69cfb9c8d1c",
+          "sha1": "8959e2a6a4f0fbe03c47b8295ad43a6463289175",
+          "md5": "3ddbde69391cb021edd46b4f7337794a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.grpc",
+          "module": "grpc-bom",
+          "version": {
+            "requires": "1.58.1"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.grpc",
+          "module": "grpc-api"
+        },
+        {
+          "group": "io.grpc",
+          "module": "grpc-stub"
+        },
+        {
+          "group": "io.grpc",
+          "module": "grpc-netty-shaded"
+        },
+        {
+          "group": "io.grpc",
+          "module": "grpc-services"
+        },
+        {
+          "group": "io.grpc",
+          "module": "grpc-inprocess"
+        },
+        {
+          "group": "com.google.protobuf",
+          "module": "protobuf-java-util",
+          "version": {
+            "requires": "3.25.8"
+          }
+        },
+        {
+          "group": "com.uber.m3",
+          "module": "tally-core",
+          "version": {
+            "requires": "0.13.0"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.36"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "temporal-serviceclient-unknown.jar",
+          "url": "temporal-serviceclient-unknown.jar",
+          "size": 9644530,
+          "sha512": "1007dcc6be625b40ace38312bf6544ed1e3823bd44f66089ebfd4dea7b2de01e35b67bfb10853d64e7643bd0b9329e35b808d0d4f8e348f6b543090f424eb424",
+          "sha256": "e3990ef0831ad14ee3b61e18325616d71839a38f37dc63709c88b69cfb9c8d1c",
+          "sha1": "8959e2a6a4f0fbe03c47b8295ad43a6463289175",
+          "md5": "3ddbde69391cb021edd46b4f7337794a"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "temporal-serviceclient-unknown-javadoc.jar",
+          "url": "temporal-serviceclient-unknown-javadoc.jar",
+          "size": 19140759,
+          "sha512": "862997540532e59ea31d48563171f786c348eee586fa976b81d410d740dbd0f2d5621b78493d9cb96fad7e03c981338fd0095d7165ec8933cbe330814b32ac16",
+          "sha256": "8023ab240c7b45df3db34ba70cff830d7fafb6df78fd76e5ac1e8b0aa69d2fee",
+          "sha1": "5e8a709bf860a42d0d60db0309482c57a2a7cc4c",
+          "md5": "8c20d493085a18c617af44dc2bc98771"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "temporal-serviceclient-unknown-sources.jar",
+          "url": "temporal-serviceclient-unknown-sources.jar",
+          "size": 5075245,
+          "sha512": "ed4ea37e1847ab65f886c943e87b2bffefcb6cd2a071b1742e12e9ae8c88784b4cb1ac2e99f9c8dbdbe081e2a6d19c361326314b3f05b826d070a1ccd80f082e",
+          "sha256": "8a7f838948ad03bcb896bddb937f0c451e8ebf46437635d5090c31edc59e1fcc",
+          "sha1": "4ff116ba0502f62245876430a5f462fee69cbbef",
+          "md5": "1b62849f616f826e71397cc4c66d086f"
+        }
+      ]
+    }
+  ]
+}

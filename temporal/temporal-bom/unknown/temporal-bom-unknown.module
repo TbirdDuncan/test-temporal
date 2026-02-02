@@ -1,0 +1,190 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.temporal",
+    "module": "temporal-bom",
+    "version": "unknown",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "io.temporal",
+          "module": "temporal-kotlin",
+          "version": {
+            "requires": "unknown"
+          }
+        },
+        {
+          "group": "io.temporal",
+          "module": "temporal-opentracing",
+          "version": {
+            "requires": "unknown"
+          }
+        },
+        {
+          "group": "io.temporal",
+          "module": "temporal-remote-data-encoder",
+          "version": {
+            "requires": "unknown"
+          }
+        },
+        {
+          "group": "io.temporal",
+          "module": "temporal-sdk",
+          "version": {
+            "requires": "unknown"
+          }
+        },
+        {
+          "group": "io.temporal",
+          "module": "temporal-serviceclient",
+          "version": {
+            "requires": "unknown"
+          }
+        },
+        {
+          "group": "io.temporal",
+          "module": "temporal-shaded",
+          "version": {
+            "requires": "unknown"
+          }
+        },
+        {
+          "group": "io.temporal",
+          "module": "temporal-spring-boot-autoconfigure",
+          "version": {
+            "requires": "unknown"
+          }
+        },
+        {
+          "group": "io.temporal",
+          "module": "temporal-spring-boot-starter",
+          "version": {
+            "requires": "unknown"
+          }
+        },
+        {
+          "group": "io.temporal",
+          "module": "temporal-test-server",
+          "version": {
+            "requires": "unknown"
+          }
+        },
+        {
+          "group": "io.temporal",
+          "module": "temporal-testing",
+          "version": {
+            "requires": "unknown"
+          }
+        },
+        {
+          "group": "io.temporal",
+          "module": "temporal-envconfig",
+          "version": {
+            "requires": "unknown"
+          }
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "io.temporal",
+          "module": "temporal-kotlin",
+          "version": {
+            "requires": "unknown"
+          }
+        },
+        {
+          "group": "io.temporal",
+          "module": "temporal-opentracing",
+          "version": {
+            "requires": "unknown"
+          }
+        },
+        {
+          "group": "io.temporal",
+          "module": "temporal-remote-data-encoder",
+          "version": {
+            "requires": "unknown"
+          }
+        },
+        {
+          "group": "io.temporal",
+          "module": "temporal-sdk",
+          "version": {
+            "requires": "unknown"
+          }
+        },
+        {
+          "group": "io.temporal",
+          "module": "temporal-serviceclient",
+          "version": {
+            "requires": "unknown"
+          }
+        },
+        {
+          "group": "io.temporal",
+          "module": "temporal-shaded",
+          "version": {
+            "requires": "unknown"
+          }
+        },
+        {
+          "group": "io.temporal",
+          "module": "temporal-spring-boot-autoconfigure",
+          "version": {
+            "requires": "unknown"
+          }
+        },
+        {
+          "group": "io.temporal",
+          "module": "temporal-spring-boot-starter",
+          "version": {
+            "requires": "unknown"
+          }
+        },
+        {
+          "group": "io.temporal",
+          "module": "temporal-test-server",
+          "version": {
+            "requires": "unknown"
+          }
+        },
+        {
+          "group": "io.temporal",
+          "module": "temporal-testing",
+          "version": {
+            "requires": "unknown"
+          }
+        },
+        {
+          "group": "io.temporal",
+          "module": "temporal-envconfig",
+          "version": {
+            "requires": "unknown"
+          }
+        }
+      ]
+    }
+  ]
+}

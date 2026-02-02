@@ -1,0 +1,167 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.temporal",
+    "module": "temporal-kotlin",
+    "version": "unknown",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "temporal-kotlin-unknown.jar",
+          "url": "temporal-kotlin-unknown.jar",
+          "size": 47577,
+          "sha512": "bc1784093224e9be374af634c107567f5d47e93d0c580ad4eff2082ddd4acdc54d6f8f6c1c0a43b301d4784a1dc3940b73f86e8c64e027d6953a093ab566cc73",
+          "sha256": "9a2783466aaebc3dca239990baf40644d01c5a440aba584a92ecf3bc3375e5f4",
+          "sha1": "f5f48ee608c5bdb4bf870cf8df6ba3dbc5918480",
+          "md5": "199ae1deeeb46472cbc4274e978ce9f7"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.fasterxml.jackson",
+          "module": "jackson-bom",
+          "version": {
+            "requires": "2.15.4"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.9.24"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310"
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jdk8"
+        },
+        {
+          "group": "com.fasterxml.jackson.module",
+          "module": "jackson-module-kotlin",
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-reflect"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "temporal-kotlin-unknown.jar",
+          "url": "temporal-kotlin-unknown.jar",
+          "size": 47577,
+          "sha512": "bc1784093224e9be374af634c107567f5d47e93d0c580ad4eff2082ddd4acdc54d6f8f6c1c0a43b301d4784a1dc3940b73f86e8c64e027d6953a093ab566cc73",
+          "sha256": "9a2783466aaebc3dca239990baf40644d01c5a440aba584a92ecf3bc3375e5f4",
+          "sha1": "f5f48ee608c5bdb4bf870cf8df6ba3dbc5918480",
+          "md5": "199ae1deeeb46472cbc4274e978ce9f7"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "temporal-kotlin-unknown-javadoc.jar",
+          "url": "temporal-kotlin-unknown-javadoc.jar",
+          "size": 261,
+          "sha512": "4391f9953f409d33a3bcf9bbfe91b3fb509fefd4d865b10f13c3bdac613578bc7e196d9216e7f9229e7a7cc666f1a9dc209d3a8683eb7f99baa60552b8e5af87",
+          "sha256": "d70c4d14c8a1227188706d2497d2f79700543d6c675ba0f1bb9f1daf146bb21a",
+          "sha1": "6b81ae63d0f6bd8b6e16c1b108b60b13c181d9d7",
+          "md5": "27a3365affe41b357e1203ea6971fd3a"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "temporal-kotlin-unknown-sources.jar",
+          "url": "temporal-kotlin-unknown-sources.jar",
+          "size": 18025,
+          "sha512": "de0ab76362905e922a7411db339eb123ce4456a0349634bfa2308ec2c443117b94ec6fd9cd9dcd7002d387754bdeabdb126fe85d2441e73a9e55aa3a57e356ba",
+          "sha256": "508bbe0fe6399bd36eaeda6d3db4b4d996d1708555c02e09efcbc513e3e9f7bb",
+          "sha1": "d2c24320c8aff04026fa3d0285d73eaa63550867",
+          "md5": "2aa7ec1734e25e214a062cf537df7e39"
+        },
+        {
+          "name": "temporal-kotlin-unknown-sources.jar",
+          "url": "temporal-kotlin-unknown-sources.jar",
+          "size": 18025,
+          "sha512": "de0ab76362905e922a7411db339eb123ce4456a0349634bfa2308ec2c443117b94ec6fd9cd9dcd7002d387754bdeabdb126fe85d2441e73a9e55aa3a57e356ba",
+          "sha256": "508bbe0fe6399bd36eaeda6d3db4b4d996d1708555c02e09efcbc513e3e9f7bb",
+          "sha1": "d2c24320c8aff04026fa3d0285d73eaa63550867",
+          "md5": "2aa7ec1734e25e214a062cf537df7e39"
+        }
+      ]
+    }
+  ]
+}

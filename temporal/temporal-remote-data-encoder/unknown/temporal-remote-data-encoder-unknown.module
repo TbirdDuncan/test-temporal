@@ -1,0 +1,100 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.temporal",
+    "module": "temporal-remote-data-encoder",
+    "version": "unknown",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "temporal-remote-data-encoder-unknown.jar",
+          "url": "temporal-remote-data-encoder-unknown.jar",
+          "size": 10878,
+          "sha512": "d4a99f628298fda2bc34472dca2d650303d32a05657946a0001edb72b43a6d73990051c8e45c4e5199290de5766b509d826cbc15531e315deea7f319600c2abe",
+          "sha256": "cfb3b8811626c0410133eddb51150c6a15069dc68f3dc923fee01b9fce89b76e",
+          "sha1": "0b79a8932b2a8a8aa21af7c6f38c624332d6119c",
+          "md5": "4ddb51b2785c261f2057df4832859fa9"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "temporal-remote-data-encoder-unknown.jar",
+          "url": "temporal-remote-data-encoder-unknown.jar",
+          "size": 10878,
+          "sha512": "d4a99f628298fda2bc34472dca2d650303d32a05657946a0001edb72b43a6d73990051c8e45c4e5199290de5766b509d826cbc15531e315deea7f319600c2abe",
+          "sha256": "cfb3b8811626c0410133eddb51150c6a15069dc68f3dc923fee01b9fce89b76e",
+          "sha1": "0b79a8932b2a8a8aa21af7c6f38c624332d6119c",
+          "md5": "4ddb51b2785c261f2057df4832859fa9"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "temporal-remote-data-encoder-unknown-javadoc.jar",
+          "url": "temporal-remote-data-encoder-unknown-javadoc.jar",
+          "size": 104177,
+          "sha512": "4c609983d4f0ea51716802c75c66ceb7d7c22f54b56d4aff3f57ff742fc6d23c5ca2ce7e523c9a84ce212cb0f9f94c5ee4a6a16ca338fbbd314acfec61c6f8a8",
+          "sha256": "215b4a03370a032f0fe4b36977e73e801d4e8ab688676ee9366123338a4735f3",
+          "sha1": "86afd383e21d685aaaf4b0b49bf59540144a5745",
+          "md5": "9e90dc331846281eb4d290c3d4d973b4"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "temporal-remote-data-encoder-unknown-sources.jar",
+          "url": "temporal-remote-data-encoder-unknown-sources.jar",
+          "size": 7026,
+          "sha512": "9ef6da40358996b59a3847f8fd0e62de2431cec1669e7c793def3d66928dfc820e2cdd41527c6ca264d901ed6204277619043940554a36b6c7209d4827a6bccd",
+          "sha256": "8e3be71f7b59100385b054809c20a23f5a11025df53025bf938532df96c601e1",
+          "sha1": "b10f8dbf8195a4855e8943b3a6f7be001d66b380",
+          "md5": "9b65df199463295f5b4e8db64f30d2f6"
+        }
+      ]
+    }
+  ]
+}

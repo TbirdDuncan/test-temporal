@@ -1,0 +1,138 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.temporal",
+    "module": "temporal-test-server",
+    "version": "unknown",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.temporal",
+          "module": "temporal-sdk",
+          "version": {
+            "requires": "unknown"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "temporal-test-server-unknown.jar",
+          "url": "temporal-test-server-unknown.jar",
+          "size": 367901,
+          "sha512": "445ad031b9038f5e29c144c7713342e06875912244e86a6f1c7918d0dd62e0012e27f3e2d0da58104f61643bc69391a985430365bc122d71ef5a2a53f2e677d8",
+          "sha256": "a892f4b0edddaa2c50e43c1c3716c9ac97e4a688dbeeb46f0761aedc2dd9b0dd",
+          "sha1": "85aa396444879b3a7563950a24c52f4d1688c3dc",
+          "md5": "265976c4aa4d0341a31a4c4a5336092f"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "32.0.1-jre"
+          }
+        },
+        {
+          "group": "com.cronutils",
+          "module": "cron-utils",
+          "version": {
+            "requires": "9.2.1"
+          },
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-api"
+            }
+          ]
+        },
+        {
+          "group": "io.temporal",
+          "module": "temporal-sdk",
+          "version": {
+            "requires": "unknown"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "temporal-test-server-unknown.jar",
+          "url": "temporal-test-server-unknown.jar",
+          "size": 367901,
+          "sha512": "445ad031b9038f5e29c144c7713342e06875912244e86a6f1c7918d0dd62e0012e27f3e2d0da58104f61643bc69391a985430365bc122d71ef5a2a53f2e677d8",
+          "sha256": "a892f4b0edddaa2c50e43c1c3716c9ac97e4a688dbeeb46f0761aedc2dd9b0dd",
+          "sha1": "85aa396444879b3a7563950a24c52f4d1688c3dc",
+          "md5": "265976c4aa4d0341a31a4c4a5336092f"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "temporal-test-server-unknown-javadoc.jar",
+          "url": "temporal-test-server-unknown-javadoc.jar",
+          "size": 288694,
+          "sha512": "d17f536086fb17fc3bcc3e0f3127b78c1ec05c3826ee8615c460edfdcc0ee2c958da5c0b4f3a71c7e6b0cbdf409f43674576ff4dbfe575dba975cec5a10e1b3f",
+          "sha256": "8b47c05836b92117548f48f3785f0ca90b35ea4930e59a5065ed2e9a2e433a52",
+          "sha1": "1b38af95416b04f7fbbca9a080206f2733bc02d7",
+          "md5": "041ab27ded4c0f2dd6b5b7bdb034a4af"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "temporal-test-server-unknown-sources.jar",
+          "url": "temporal-test-server-unknown-sources.jar",
+          "size": 147122,
+          "sha512": "8036ae571abf75fcb0f29298425d0692d46b1a0ec47b465c9373157e32563488f62e22e65f6bc3cd28c05e63bca324091608411372b84f77bdddacc01bb78a45",
+          "sha256": "24c9755fa51666b6df22b3ede5eeab9109f4769f221301bdf09d64321d37c538",
+          "sha1": "dd527a89a8fb31f77911217b75ef627af11028ca",
+          "md5": "f88d954509773919317e309befff0ac9"
+        }
+      ]
+    }
+  ]
+}

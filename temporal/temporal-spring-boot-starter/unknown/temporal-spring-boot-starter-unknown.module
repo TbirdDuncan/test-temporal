@@ -1,0 +1,172 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.temporal",
+    "module": "temporal-spring-boot-starter",
+    "version": "unknown",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-dependencies",
+          "version": {
+            "requires": "2.7.18"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.temporal",
+          "module": "temporal-spring-boot-autoconfigure",
+          "version": {
+            "requires": "unknown"
+          }
+        },
+        {
+          "group": "io.temporal",
+          "module": "temporal-sdk",
+          "version": {
+            "requires": "unknown"
+          }
+        },
+        {
+          "group": "io.temporal",
+          "module": "temporal-testing",
+          "version": {
+            "requires": "unknown"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "temporal-spring-boot-starter-unknown.jar",
+          "url": "temporal-spring-boot-starter-unknown.jar",
+          "size": 382,
+          "sha512": "75007b0eae8c5e55518f0793ea5814a37d71328f449379efaaa86ce9e52c32f4c2145d42831d21a4ca100ff6d4dff97f494ecdda7892bfafe84ab5c69378ce28",
+          "sha256": "ae879a35f11d744bf568cd1561ac76669201b192458f70bb3a0d3d763da1232d",
+          "sha1": "94bf81d9ac4287ea68b6ce5623eda28fa6f2b03b",
+          "md5": "ea72e2e78d0f741b44d40f15bd55f993"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter"
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-dependencies",
+          "version": {
+            "requires": "2.7.18"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.temporal",
+          "module": "temporal-spring-boot-autoconfigure",
+          "version": {
+            "requires": "unknown"
+          }
+        },
+        {
+          "group": "io.temporal",
+          "module": "temporal-sdk",
+          "version": {
+            "requires": "unknown"
+          }
+        },
+        {
+          "group": "io.temporal",
+          "module": "temporal-testing",
+          "version": {
+            "requires": "unknown"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "temporal-spring-boot-starter-unknown.jar",
+          "url": "temporal-spring-boot-starter-unknown.jar",
+          "size": 382,
+          "sha512": "75007b0eae8c5e55518f0793ea5814a37d71328f449379efaaa86ce9e52c32f4c2145d42831d21a4ca100ff6d4dff97f494ecdda7892bfafe84ab5c69378ce28",
+          "sha256": "ae879a35f11d744bf568cd1561ac76669201b192458f70bb3a0d3d763da1232d",
+          "sha1": "94bf81d9ac4287ea68b6ce5623eda28fa6f2b03b",
+          "md5": "ea72e2e78d0f741b44d40f15bd55f993"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "temporal-spring-boot-starter-unknown-javadoc.jar",
+          "url": "temporal-spring-boot-starter-unknown-javadoc.jar",
+          "size": 261,
+          "sha512": "4cb65f012adeba06e0186057d8ac00e1a0ac118181d8184b2519d3c2abb925d413058772110750705cc1ec7d9343190ea6697cab33f0c68fda846e7e8c5f4b88",
+          "sha256": "196c116cc687df4d35cabc066cc529bb20ddff1e64b0c65f18cdf47eaf5eec3b",
+          "sha1": "8936006ac7ec62c01b0d1a44bfd8ac1d4567ef42",
+          "md5": "216b917effdd32cb3951be32ed8269ce"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "temporal-spring-boot-starter-unknown-sources.jar",
+          "url": "temporal-spring-boot-starter-unknown-sources.jar",
+          "size": 261,
+          "sha512": "4cb65f012adeba06e0186057d8ac00e1a0ac118181d8184b2519d3c2abb925d413058772110750705cc1ec7d9343190ea6697cab33f0c68fda846e7e8c5f4b88",
+          "sha256": "196c116cc687df4d35cabc066cc529bb20ddff1e64b0c65f18cdf47eaf5eec3b",
+          "sha1": "8936006ac7ec62c01b0d1a44bfd8ac1d4567ef42",
+          "md5": "216b917effdd32cb3951be32ed8269ce"
+        }
+      ]
+    }
+  ]
+}
