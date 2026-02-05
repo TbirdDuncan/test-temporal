@@ -18,12 +18,6 @@ public class SayHelloWorker {
         WorkerFactory factory = WorkerFactory.newInstance(client);
 
         Worker worker = factory.newWorker("virtual-thread",  WorkerOptions.newBuilder()
-                .setDeploymentOptions(
-                        WorkerDeploymentOptions.newBuilder()
-                                .setVersion(new WorkerDeploymentVersion("llm_srv", "1.0"))
-                                .setUseVersioning(true)
-                                .setDefaultVersioningBehavior(VersioningBehavior.AUTO_UPGRADE)
-                                .build())
                 .build());
         worker.registerWorkflowImplementationTypes(SayHelloWorkflowImpl.class);
         worker.registerActivitiesImplementations(new GreetActivitiesImpl());

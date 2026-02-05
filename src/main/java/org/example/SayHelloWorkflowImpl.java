@@ -12,7 +12,7 @@ public class SayHelloWorkflowImpl implements SayHelloWorkflow {
             GreetActivities.class,
             ActivityOptions.newBuilder()
                     .setStartToCloseTimeout(Duration.ofSeconds(10))
-                    .setHeartbeatTimeout(Duration.ofSeconds(2))
+                    .setHeartbeatTimeout(Duration.ofSeconds(5))
                     .setRetryOptions(
                             RetryOptions.newBuilder()
                                     .setMaximumAttempts(3)
